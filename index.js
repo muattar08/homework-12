@@ -1,4 +1,4 @@
-// ✅ JS Homework 5 — Сложить все price из массива объектов
+//  JS Homework 5 — Сложить все price из массива объектов
 let arr1 = [[{a: {price: 20}}], [{a: {price: 35}}], [{a: {price: 44}}]];
 let total = 0;
 
@@ -10,7 +10,7 @@ for (let subArr of arr1) {
 
 console.log("Homework 5 — Total:", total); 
 
-// ✅ JS Homework 6 — Задача 1: Ввод числа больше 100 один раз
+//  JS Homework 6 — Задача 1: Ввод числа больше 100 один раз
 let num = prompt("Введите число больше 100", "");
 
 if (num !== null && !isNaN(num) && +num > 100) {
@@ -19,7 +19,7 @@ if (num !== null && !isNaN(num) && +num > 100) {
     alert("Вы ввели неправильное число!");
 }
 
-// ✅ JS Homework 6 — Задача 2: Разделение массива на чётные и нечётные числа
+//  JS Homework 6 — Задача 2: Разделение массива на чётные и нечётные числа
 let arr2 = [4, 16, 19, 22, 11, 144, 967, 19124];
 let even = [];
 let odd = [];
